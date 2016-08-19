@@ -1,0 +1,66 @@
+
+#canvas{
+  display: flex;
+  border: 10px solid black;
+  border-color: #3366cc;
+  border-radius: 10px;
+}
+
+#start, #retry{
+  position: absolute;
+  top: 385px;
+  left: 180px;
+  font-family: sans-serif;
+  font-size: 32px;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: #3366cc;
+  color: white;
+  min-width: 200px;
+}
+
+.hidden{
+  display: none;
+}
+
+.modal-title{
+  color: #FF6A6A;
+  font-size: 18px;
+}
+.modal-dialog{
+  position: absolute;
+  top: 200px;
+  width: 100px;
+  background-color: #DDF2FF;
+}
+
+.modal-body, .modal-header{
+    background-color: #DDF2FF;
+}
+
+.modal-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+#welcome {
+  font-size: 20px;
+}
+
+#numbered_instruction > div{
+  padding-top: 15px;
+}
+
+.arrow_instruction{
+  position: relative;
+  width: 305px;
+  height: 250px;
+  bottom: 22px;
+}
+
+.git{
+  position: relative;
+  bottom: 805px;
+  left: 498px;
+}
